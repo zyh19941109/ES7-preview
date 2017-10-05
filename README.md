@@ -11,7 +11,7 @@
 	//		let data1 = await $.ajax({url: 'data/arr.txt', dataType: 'json'});
 	//		let data2 = await $.ajax({url: 'data/json.txt', dataType: 'json'});
 	//	
-	//	console.log(data1, data2);
+	//		console.log(data1, data2);
 	//	}
 		
 		let readData = async () =>{
