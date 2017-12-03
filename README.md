@@ -1,12 +1,32 @@
 ## ES7-preview
 
+### Object.entries()
+
+		Object.entries() 返回一个数组
+		
+		let obj = {a:'zyh',b:123}
+		
+		for(var key of Object.keys(obj)){
+			console.log(key)
+		}
+		for(var value of Object.values(obj)){
+			console.log(value)
+		}
+		for(var entry of Object.entries(obj)){
+			console.log(entry)
+		}
+		//也可以使用ES6解构
+		for(var [k,v] of Object.entries(obj)){
+			console.log(k,v)
+		}
+
 ### async await
 
 > 1.不依赖于外部的runner	=>		标准统一、性能提升
 
 > 2.可以用箭头函数
 
-```
+```html
 	//	async function readData(){
 	//		let data1 = await $.ajax({url: 'data/arr.txt', dataType: 'json'});
 	//		let data2 = await $.ajax({url: 'data/json.txt', dataType: 'json'});
