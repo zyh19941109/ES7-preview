@@ -1,5 +1,23 @@
 ## ES7-preview
 
+### 函数参数容忍度
+
+		ES7
+		
+		function show(a,b,c,){//最后一个逗号在ES7中可容忍
+			console.log(a,b,c)
+		}
+		show(1,2,3)
+
+### 字符串前、后填充
+
+		/*
+			padStart/padEnd
+			字符串的前、后填充
+		*/
+    	console.log('zyh'.padStart(3, '0'));
+    	console.log('zyh'.padEnd(4, '0'));
+
 ### Object.entries()
 
 		Object.entries() 返回一个数组
