@@ -15,8 +15,8 @@
 			padStart/padEnd
 			字符串的前、后填充
 		*/
-    	console.log('zyh'.padStart(3, '0'));
-    	console.log('zyh'.padEnd(4, '0'));
+    	console.log('zyh'.padStart(4, '0')); // 0zyh
+    	console.log('zyh'.padEnd(5, '0')); //zyh00
 
 ### Object.entries()
 
