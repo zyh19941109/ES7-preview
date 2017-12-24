@@ -3,12 +3,12 @@
 ### 函数参数容忍度
 
 ```javascript
-		ES7
-		
-		function show(a,b,c,){//最后一个逗号在ES7中可容忍
-			console.log(a,b,c)
-		}
-		show(1,2,3)
+	ES7
+	
+	function show(a,b,c,){//最后一个逗号在ES7中可容忍
+		console.log(a,b,c)
+	}
+	show(1,2,3)
 ```
 
 ### 字符串前、后填充
