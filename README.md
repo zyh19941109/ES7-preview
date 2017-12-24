@@ -13,12 +13,14 @@
 
 ### 字符串前、后填充
 
+```javascript
 		/*
 			padStart/padEnd
 			字符串的前、后填充
 		*/
     	console.log('zyh'.padStart(4, '0')); // 0zyh
     	console.log('zyh'.padEnd(5, '0')); //zyh00
+```
 
 ### Object.entries()
 
