@@ -46,9 +46,9 @@
 
 ### async await
 
-> 1.不依赖于外部的runner	=>		标准统一、性能提升
+> 1.它作为一个关键字放到函数前面，用于表示函数是一个异步函数，因为async就是异步的意思， 异步函数也就意味着该函数的执行不会阻塞后面代码的执行。
 
-> 2.可以用箭头函数
+> 2.async函数返回一个 Promise 对象。async函数内部return语句返回的值，会成为then方法回调函数的参数。async函数内部抛出错误，会导致返回的 Promise 对象变为reject状态。抛出的错误对象会被catch方法回调函数接收到。
 
 ```javascript
 	//	async function readData(){
